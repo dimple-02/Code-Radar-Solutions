@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int n , arr1[n], x,j;
+    int n, x = 1;
     scanf("%d", &n);
-    for(int i =0; i<n;i++){
-        int num;
-        scanf("%d",num);
-        arr1[i]=num;
-    } for (j=0;j<n;j++){
-        if(arr1[j]<arr1[j-1] || arr1[j] < arr1[j+1]){
-            x=0;
-        }
-    } if (x){
-         printf("%d", arr1[j]);
+    
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
+
+    for (int j = 1; j < n; j++) {
+        if (arr[j] < arr[j - 1]) {
+            x = 0;
+            break;
+        }
+    }
+
+    printf(x ? "Sorted\n" : "Not Sorted\n");
+    
     return 0;
 }
