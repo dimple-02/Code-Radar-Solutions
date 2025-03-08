@@ -2,6 +2,6 @@
 int main(){
     double n;
     scanf("%lf", &n);
-    printf("You entered: %.9f", n); // Adjusted for 9 decimal places
+    printf("You entered: %.4f", n); // Adjusted for 9 decimal places
     return 0;
 }
