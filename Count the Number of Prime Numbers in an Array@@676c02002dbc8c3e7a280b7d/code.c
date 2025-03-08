@@ -9,7 +9,7 @@ int main(){
     int factors=0;
     for(int i=0; i<n;i++){
         int count=0;
-        for(int j=0; j<arr1[i] ; j++){
+        for(int j=1; j<=arr1[i] ; j++){
             if(arr1[i]%j==0){
                 count++;
             }
