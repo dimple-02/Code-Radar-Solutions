@@ -11,4 +11,5 @@ int main(){
         sum=sum+arr1[i];
         printf("%d", sum);
     }
+    return 0;
 }
