@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    float n;
-    scanf("%f", &n);
-    printf("You entered: %.4f", n);
+    double n;
+    scanf("%lf", &n);
+    printf("You entered: %.9f", n); // Adjusted for 9 decimal places
     return 0;
 }
