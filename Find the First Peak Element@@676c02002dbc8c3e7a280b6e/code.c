@@ -16,6 +16,6 @@ int j;
         }
     }
 
-    printf("%d", arr[j]);
+    printf("%d", arr[j-1]);
     return 0;
 }
