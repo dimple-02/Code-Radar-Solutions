@@ -8,20 +8,16 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-    for (int j = 1; j < n; j++) {
+int j;
+    for ( j = 1; j < n; j++) {
         if (arr[j] < arr[j - 1]) {
             x = 0;
             break;
         }
     }
-
-    if (x == 1) {
-        printf("%d", arr[n - 1]);  // Print last element if sorted
-    } else {
-        printf("-1");  // Print -1 if not sorted
-    }
-
-    return 0;
+if (arr[j]==arr[j-1]){
+    printf("-1");
+}else{
+    printf("%d", arr[j-1]);
+} return 0;
 }
-
