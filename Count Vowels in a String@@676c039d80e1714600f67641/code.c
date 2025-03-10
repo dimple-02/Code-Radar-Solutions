@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    char st[12];
-    scanf("%s",&st);
+    char st[100];
+    scanf("%99s",&st);
     int count=0;
-    for(int i=0;i<12;i++){
+    for(int i=0;st[i] != '\0';i++){
         if(st[i]=='a' || st[i]=='e' || st[i]=='i' || st[i]=='o' || st[i]=='u' || st[i]=='A' || st[i]=='E' || st[i]=='I' || st[i]=='O' || st[i]=='U' ){
             count++;
         }
