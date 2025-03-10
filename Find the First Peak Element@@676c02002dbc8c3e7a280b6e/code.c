@@ -16,9 +16,6 @@ int j;
         }
     }
 
-    if(sorted){
-        printf("%d", arr[j]);
-    }
-    
+    printf("%d", arr[j]);
     return 0;
 }
