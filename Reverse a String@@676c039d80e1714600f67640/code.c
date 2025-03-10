@@ -2,7 +2,7 @@
 int main(){
     char st[5];
     scanf("%s", &st);
-    n=5;
+   int n=5;
     char st2[5];
     for(int i=0; i<n;i++){
         st[n-i]= st2[i];
