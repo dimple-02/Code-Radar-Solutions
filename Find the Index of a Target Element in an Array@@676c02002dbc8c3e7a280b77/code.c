@@ -8,9 +8,9 @@ int main(){
     }
     int index;
     scanf("%d", &index);
-int i;
+     int i;
     for(i=0;i<n;i++){
-        if(arr[i]==index);
+        if(arr[i]==index)
         break;
     } printf("%d", i);
     return 0;
