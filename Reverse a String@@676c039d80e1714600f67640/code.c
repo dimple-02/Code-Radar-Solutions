@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char st[];
+    char st[5];
     scanf("%s", &st);
     n=sizeof(st)
     char st2[];
