@@ -12,6 +12,8 @@ int main(){
     for(i=0;i<n;i++){
         if(arr[i]==index)
         break;
-    } printf("%d", i);
-    return 0;
+    } if(i==n){
+        printf(-1);
+    }else{ printf("%d", i);
+     } return 0;
 }
