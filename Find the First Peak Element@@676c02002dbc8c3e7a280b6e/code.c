@@ -15,9 +15,14 @@ int j;
             break;
         }
     }
-if (j==n){
-      printf("-1");
-}
+        if (j == n) {
+        printf("-1");
+        return 0;
+    }
+
+if (arr[j]==arr[j-1]){
+    printf("-1");
+}else{
     printf("%d", arr[j-1]);
- return 0;
+} return 0;
 }
