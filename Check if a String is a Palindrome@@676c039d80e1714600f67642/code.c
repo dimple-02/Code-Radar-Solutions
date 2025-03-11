@@ -1,12 +1,15 @@
 #include<stdio.h>
+#include<string.h>
 int main(){
     char st1[7];
     scanf("%s", &st1);
     char st2[7];
-    for(int i=0;st1[i]='\0';i++){
-        st1[i]=st2[sizeof(st1)-i];
+    int len = strlen(str1);
+    for(int i=0;i<len;i++){
+        st1[i]=st2[len-i-1];
         
-    } if(st1==st2){
+    } if(strcmp(st1,st2)==0)
+    {
         printf("Yes");
     } else{
         printf("No");
