@@ -4,7 +4,7 @@ int main(){
     char st1[7];
     scanf("%s", &st1);
     char st2[7];
-    int len = strlen(str1);
+    int len = strlen(st1);
     for(int i=0;i<len;i++){
         st1[i]=st2[len-i-1];
         
