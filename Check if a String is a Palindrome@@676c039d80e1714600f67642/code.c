@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<len;i++){
         st1[i]=st2[len-i-1];
         
-    }  st22[len] = '\0';
+    }  st2[len] = '\0';
     if(strcmp(st1,st2)==0)
     {
         printf("Yes");
