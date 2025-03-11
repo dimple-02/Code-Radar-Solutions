@@ -6,7 +6,7 @@ int main(){
     char st2[7];
     int len = strlen(st1);
     for(int i=0;i<len;i++){
-        st1[i]=st2[len-i-1];
+        st2[i]=st1[len-i-1];
         
     }  st2[len] = '\0';
     if(strcmp(st1,st2)==0)
