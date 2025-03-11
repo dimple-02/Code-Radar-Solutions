@@ -3,8 +3,6 @@
 int main()
 {
     int number, i, k, count = 1;
- 
-    printf("Enter number of rows: \n");
     scanf("%d", &number);
     count = number - 1;
     for (k = 1; k <= number; k++)
