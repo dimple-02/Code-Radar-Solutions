@@ -7,7 +7,7 @@ int main(){
     int len= strlen(st);
     int count=0;
     for(int i=0; i<len;i++){
-        if(st[i]=='l'){
+        if(st[i]==ch){
             count++;
         }
     } printf("%d", count);
