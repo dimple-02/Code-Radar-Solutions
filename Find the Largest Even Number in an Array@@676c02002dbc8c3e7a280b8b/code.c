@@ -12,8 +12,6 @@ int main(){
         if(arr[0]<arr[i]){
             arr[0]=arr[i];
         } 
-        }else{
-            printf("-1");
         }
     }
     printf("%d", arr[0]);
