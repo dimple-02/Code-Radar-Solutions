@@ -11,6 +11,8 @@ int main(){
         if(arr[i]%2==0){
         if(arr[0]<arr[i]){
             arr[0]=arr[i];
+        } else{
+            printf("-1");
         }
         }
     }
