@@ -17,7 +17,7 @@ int main(){
    for(int i=0;i<len;i++){
     st[i]=st2[len-i-1];
    }
-   if (strcmp(st,st2)){
+   if (strcmp(st,st2)==0){
     printf("Yes");
    } else("No");
     return 0;
