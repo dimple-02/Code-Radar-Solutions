@@ -15,7 +15,7 @@ int main(){
    int len=strlen(st);
    char st2[50];
    for(int i=0;i<len;i++){
-    st[i]=st[len-i-1];
+    st[i]=st2[len-i-1];
    }
    if (strcmp(st,st2)){
     printf("Yes");
