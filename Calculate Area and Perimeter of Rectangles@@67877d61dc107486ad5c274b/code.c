@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 struct rectangle {
-    int l, b;
+    float l, b;
 };
 
 int main() {
@@ -10,13 +10,13 @@ int main() {
     struct rectangle rect[n];
 
     for(int i = 0; i < n; i++) {
-        scanf("%d %d", &rect[i].l, &rect[i].b);
+        scanf("%f %f", &rect[i].l, &rect[i].b);
     }
 
     for(int i = 0; i < n; i++) {
         int area = rect[i].l * rect[i].b;
         int perimeter = 2 * (rect[i].l + rect[i].b);
-        printf("Rectangle %d: Area = %d, Perimeter = %d\n", i + 1, area, perimeter);
+        printf("Rectangle %d: Area = %f, Perimeter = %f\n", i + 1, area, perimeter);
     }
 
     return 0;
