@@ -14,8 +14,8 @@ int main() {
     }
 
     for(int i = 0; i < n; i++) {
-        int area = rect[i].l * rect[i].b;
-        int perimeter = 2 * (rect[i].l + rect[i].b);
+        float area = rect[i].l * rect[i].b;
+        float perimeter = 2 * (rect[i].l + rect[i].b);
         printf("Rectangle %d: Area = %f, Perimeter = %f\n", i + 1, area, perimeter);
     }
 
