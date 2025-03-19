@@ -3,7 +3,7 @@
 struct Book{
     char book[100];
     char Author[100];
-    int price;
+    float price;
 };
 int main(){
     int n;
@@ -12,10 +12,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%s",s[i].book);
         scanf("%s",s[i].Author);
-        scanf("%d",&s[i].price);
+        scanf("%f",&s[i].price);
     }
     int k;
-    scanf("%d",&k);
+    scanf("%f",&k);
     printf("Books above price %.2f:\n",k);
     for(int i=0;i<n;i++){
        if(s[i].price>k){
