@@ -14,7 +14,7 @@ int main(){
         scanf("%s",s[i].Author);
         scanf("%f",&s[i].price);
     }
-    int k;
+    float k;
     scanf("%f",&k);
     printf("Books above price %.2f:\n",k);
     for(int i=0;i<n;i++){
