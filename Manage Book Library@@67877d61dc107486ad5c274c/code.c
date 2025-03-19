@@ -15,7 +15,7 @@ int main(){
         scanf("%f",&s[i].price);
     }
     int k;
-    scanf("%f",&k);
+    scanf("%d",&k);
     printf("Books above price %.2f:\n",k);
     for(int i=0;i<n;i++){
        if(s[i].price>k){
