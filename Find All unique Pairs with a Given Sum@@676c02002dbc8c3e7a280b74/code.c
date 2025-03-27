@@ -6,6 +6,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int k;
+    scanf("%d",&k);
     for(int i=0;i<n;i++){
         for(int j=i;j<n;j++){
             if(arr[i]+arr[j]==k){
