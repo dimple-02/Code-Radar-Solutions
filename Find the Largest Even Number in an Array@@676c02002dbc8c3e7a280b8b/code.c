@@ -14,6 +14,11 @@ int main(){
         } 
         }
     }
-    printf("%d", arr[0]);
+    if(arr[0]%2==0){
+printf("%d", arr[0]);
+    }
+    else{
+        printf("-1");
+    }
     return 0;
 }
