@@ -10,11 +10,11 @@ int main(){
         if(arr[0]<arr[i]){
             arr[0]=arr[i];
         }
-    } printf("%d", &arr[0]);
+    } printf("%d", arr[0]);
     for(int i=0;i<n;i++){
         if(arr[0]>arr[i]){
             arr[0]=arr[i];
         }
-    } printf("%d", &arr[0]);
+    } printf("%d", arr[0]);
     return 0;
 }
