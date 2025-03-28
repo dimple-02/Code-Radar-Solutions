@@ -11,6 +11,6 @@ void factorialRange(int start, int end) {
         return;
     }
     for (int i = start; i <= end; i++) {
-        printf("Factorial of %d is %lld\n", i, factorial(i));
+        printf("%lld\n", i, factorial(i));
     }
 }
