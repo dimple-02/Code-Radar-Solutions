@@ -1,4 +1,4 @@
-int insertionSort(int arr[], int n){
+void insertionSort(int arr[], int n){
     for(int i=1;i<=n-1;i++){
         int temp;
         int j=i;
