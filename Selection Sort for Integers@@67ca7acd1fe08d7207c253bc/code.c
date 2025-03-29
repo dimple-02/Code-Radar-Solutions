@@ -1,6 +1,6 @@
 void selectionSort(int arr[], int n){
     for(int i=0;i<n-1;i++){
-        int min=a[i];
+        int min=[i];
         int mindex=i;
         for(int j=i;j<n;j++){
             if(min>arr[j]){
