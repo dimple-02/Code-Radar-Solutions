@@ -10,7 +10,7 @@ int selectionSort(int arr[], int n){
        }
        int temp=arr[mindex];
        arr[mindex]=arr[i];
-       arr[j]=temp;
+       arr[i]=temp;
     }
 }
 int printArray(int arr[], int n){
