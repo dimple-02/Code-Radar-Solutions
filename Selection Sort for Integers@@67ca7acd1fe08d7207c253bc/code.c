@@ -1,13 +1,16 @@
 int selectionSort(int arr[], int n){
     for(int i=0;i<n-1;i++){
-        int temp;
-        for(int j=0;j<n-1;j++){
-            if(arr[j]>arr[j+1]){
-                temp=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
+        int min=-1;
+        int mindex=-1;
+        for(int j=i;j<n-1;j++){
+            if(min>arr[j]){
+                min=arr[j];
+                mindex = j;
             }
-        }
+       }
+       int temp=arr[mindex];
+       arr[mindex]=arr[i];
+       arr[j]=temp;
     }
 }
 int printArray(int arr[], int n){
