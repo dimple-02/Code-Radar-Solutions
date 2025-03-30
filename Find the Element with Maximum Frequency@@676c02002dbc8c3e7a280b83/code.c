@@ -26,9 +26,9 @@ int main() {
     int max=freq[0];
     for(int i=0;i<n;i++){
         if(freq[i]>freq[0]){
-            freq[0]=freq[i];
+            arr[0]=arr[i];
         }
     }
-    printf("%d", freq[0]);
+    printf("%d", arr[0]);
     return 0;
 }
