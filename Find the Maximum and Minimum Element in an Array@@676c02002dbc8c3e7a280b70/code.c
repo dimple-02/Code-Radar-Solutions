@@ -5,16 +5,16 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    } int max=arr[0],min=arr[0];
+    } 
     for(int i=0;i<n;i++){
         if(arr[0]>arr[i]){
-            min=arr[i];
+            arr[0]=arr[i];
         }
-    } printf("%d ", min);
+    } printf("%d ", arr[0]);
     for(int i=0;i<n;i++){
         if(arr[0]<arr[i]){
-            max=arr[i];
+            arr[0]=arr[i];
         }
-    } printf("%d", max);
+    } printf("%d", arr[0]);
     return 0;
 }
